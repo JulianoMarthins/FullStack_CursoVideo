@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>   
+</head>
+<body>
+
+    <h1>Outras Formatações</h1>
+
+    <!-- Código fonte -->
+    <div>
+        <h2>Código-fonte</h2>
+
+        <p>
+            O comando <code>document.getElementById('teste')</code>
+            é escrito na linguagem de promgração JavaScript
+        </p>
+
+        <p>
+            Abaixo um código escrito em Java para retornar ao usuário se o número digitado for par ou impar.
+        </p>
+
+        <!-- A tag pre serve para deixar o código com identação conforme utilizada na própria escrita aqui no VSCode -->
+        <pre> 
+            <code>
+            System.out.print("Digite um número: ");
+            int num = sc.nextInt();
+
+            if(num % 2 == 0){
+                System.out.printf("O número %d é par", numero);
+            }
+            else{
+                System.out.printf("O número %d é impar", numero);
+            }
+
+            sc.close();
+            </code>
+        </pre>
+    </div>
+
+    <!-- Citações -->
+    <div>
+        <h2>Citações simples</h2>
+
+        <!-- A tag q mostra ao navegador que o trecho contido nela é uma citação, no navegador aparecerá aspas duplas. -->
+        <p>
+            Como diria o pai de um amigo: <q>o computador é um burro muito muito rápido</q>
+        </p>
+
+        <h2>Citações completas</h2>
+        <p>
+            Segundo Jeff Noble, no seu livro HTML para Leigos:
+        </p>
+        <!-- O blockquote serve para mostrar ao navegador que seu trecho do texto é uma citação importante, o atributo cite recebe o link do local orinal que se enontra esta citação, serve apenas para avisar o navegador e o google de onde vem esta citação. -->
+        <blockquote cite="www.google.com.br">
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos <abbr title="">HTML</abbr> neste capítulo descrevem os blocos de texto.
+        </blockquote>
+    </div>
+
+    <!-- Abreviações -->
+    <div>
+        <h2>Abreviações</h2>
+        <p>
+            Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando
+        </p>
+    </div>
+    
+    <!-- Momento cultura inútil -->
+    <div>
+        <h2>Texto invertido</h2>
+        <p>
+            <bdo dir="rtl">
+                Estou aprendendo a fazer coisas em HTML
+            </bdo>
+        </p>
+    </div>
+
+</body>
+</html>

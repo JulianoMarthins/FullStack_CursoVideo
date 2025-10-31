@@ -1,0 +1,172 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+    color: #102a43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #334e68;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+a {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+a:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    width: 400px;
+    height: 242px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #bcccdc;
+    background-color: #fff;
+}
+
+/* Estilo complementar para padronizar com páginas de curso */
+
+h2 {
+    font-size: 1.8rem;
+    margin: 30px 0 20px;
+    color: #004d40;
+    border-bottom: 2px solid #80cbc4;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+    max-width: 800px;
+}
+
+ol, ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+    max-width: 800px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+em {
+    font-style: italic;
+    color: #00695c;
+}
+
+strong {
+    font-weight: bold;
+    color: #00796b;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+thead {
+    background-color: #e0f7fa;
+    color: #00796b;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f1f8e9;
+}
+
+/* Botão de voltar com imagem */
+
+a.voltar {
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a.voltar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;    
+    transition: transform 0.3s ease;
+}
+
+a.voltar:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Rodapé estilizado */
+
+footer {
+    margin-top: 60px;
+    padding: 30px 0;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+}
+
+footer a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #00796b;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2px solid #80cbc4;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+footer a:hover {
+    background-color: #e0f7fa;
+    color: #004d40;
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}

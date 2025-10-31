@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+</head>
+<body>
+    
+    <h1>Principais formatações</h1>
+
+    <div>
+        <h2>Negrinho / Destaque</h2>
+
+        <p>
+            Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt;. (não é semântico)
+        </p>
+
+        <p>
+            Nesta frase, tenho um <strong>termo em negrito</strong> usando a tag &lt;strong&gt;. (Semântico)
+        </p>
+    </div>
+
+
+
+    <div>
+        <h2>Itálico / Ênfase</h2>
+
+        <p>
+            Nesta frase, tenho um <i>termo em itálico</i> usando a tag &lt;i&gt;. (Não é semântico).
+        </p>
+
+        <p>
+            Nesta frase, tenho um <EM>termo em itálico</EM> usando a tag &lt;EM&gt;. (Semântico)
+        </p>
+    </div>
+
+    <div>
+        <h2>Marcador de Textos</h2>
+
+        <p>
+            Podemos criar também <mark style="background-color: lime">um texto marcado</mark> usando a tag MARK.
+        </p>
+    </div>
+
+    <div>
+        <h2>Texto grande e pequeno</h2>
+
+        <p>
+            Observamos que neste texto, existem <big>letras grandes</big> e <small>letras pequenas</small> neste paragrafo. As letras grandes foram geradas apartir da tag &lt;big&gt;, porém está tag está obsoleta e não é recomentado seu uso.
+        </p>
+        <p>
+            Já as letras pequenas foram criadas com a tag &lt;small&gt; que esta em uso no <strong>HTML</strong>
+        </p>
+        <p>
+            Mas porque big se tornou obsoleta e small não?
+        </p>
+        
+        <p>
+            Na verdade, o HTML manteve o small somente para serem usadas como as famosas  letras pequenas de um contrato, sendo esta considerada semântica, enquanto o big não teria utilidade e, caso o desenvolvedor necessite quem uma palavra ou trecho de texto fique com algum tipo de formatação diferenciada, isso deve ser realiado no CSS.
+        </p>
+    </div>
+
+    <div>
+        <h2>Texto deletado</h2>
+        <p>
+            Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. (Sêmantico)
+        </p>
+        <p>
+            Podemos marcar <ins>um texto inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. (Sêmantico)
+        </p>
+        <p>
+            Existe também o <u>sublinhado</u> utilizando a tag &lt;u&gt; (não semântico)
+        </p>
+    </div>
+
+    <div>
+        <h2>Texto sobrescrito</h2>
+        <p>
+            Para inserir coisas do tipo X<sup>2</sup> + 3
+        </p>
+    </div>
+
+    <div>
+        <h2>Texto subscrito</h2>
+        <p>
+            Para inserir coisas do tipo H<sub>2</sub>O
+        </p>
+    </div>
+
+</body>
+</html>

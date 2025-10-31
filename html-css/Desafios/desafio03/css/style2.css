@@ -1,0 +1,204 @@
+/* style2.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    color: #263238;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #00796b;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 30px 0 20px;
+    color: #004d40;
+    border-bottom: 2px solid #80cbc4;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+iframe {
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+    transition: transform 0.3s ease;
+}
+
+iframe:hover {
+    transform: scale(1.02);
+}
+
+div {
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+code {
+    background-color: transparent;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00695c;
+}
+
+pre {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+
+abbr {
+    border-bottom: 1px dotted #00796b;
+    cursor: help;
+    text-decoration: none;
+}
+
+q {
+    font-style: italic;
+    color: #455a64;
+    quotes: "“" "”" "‘" "’";
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+    color: #00695c;
+    text-align: center;
+    border-bottom: 1px dashed #80cbc4;
+    padding-bottom: 6px;
+}
+
+button {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+pre code {
+    display: block;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-size: 1rem;
+    color: #37474f;
+    background-color: #f9f9f9;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Botão de voltar com imagem */
+
+a.voltar {
+    display: inline-block;
+    margin: 30px auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a.voltar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;     
+    transition: transform 0.3s ease;
+}
+
+a.voltar:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Rodapé estilizado */
+
+footer {
+    margin-top: 60px;
+    padding: 30px 0;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+}
+
+footer a {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #00796b;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2px solid #80cbc4;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+footer a:hover {
+    background-color: #e0f7fa;
+    color: #004d40;
+    transform: scale(1.05);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+}
+
+
