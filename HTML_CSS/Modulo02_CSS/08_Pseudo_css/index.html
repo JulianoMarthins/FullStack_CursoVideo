@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        /* 
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = clildren
+        */
+
+        a {
+            color: yellowgreen;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: brown;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: red;
+        }
+
+        .especial::before {
+            content: '⇒ '
+        }
+
+        .especial::after {
+            content: ' ⇐'
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Personalizando Links</h1>
+
+    <ul>
+        <li><a href="https://github.com/JulianoMarthins" target="_blank">Repositório GitHub</a></li>
+        <li class="especial"><a href="https://www.linkedin.com/in/julianomarthins/" target="_blank">Perfil LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/poa.martins/" target="_blank">Perfil Instagram</a></li>
+    </ul>
+    
+</body>
+</html>
