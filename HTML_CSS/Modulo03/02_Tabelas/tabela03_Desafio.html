@@ -16,20 +16,17 @@
         }
 
         table {
-            
+
             width: 200px;
             height: 200px;
             margin-right: auto;
             margin-left: auto;
-
-
-
         }
 
         td,
         th {
             border: 2px solid black;
-            padding: 1opx;
+            padding: 1px;
 
         }
 
@@ -40,7 +37,7 @@
 
         }
 
-        #terceiro{
+        #terceiro {
             text-align: center;
             border-collapse: collapse;
             width: 600px;
@@ -58,24 +55,24 @@
 
 <body>
 
-
     <h1>Primeiro exercício</h1>
+
     <table>
         <tr>
             <td>1</td>
             <td>2</td>
             <td rowspan="2">3</td>
-                <td>4</td>
-            </tr>
+            <td>4</td>
+        </tr>
 
-            <tr>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-            </tr>
-            
-            <tr>
-                <td colspan=" 3">8</td>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td colspan=" 3">8</td>
             <td>9</td>
         </tr>
 
@@ -99,17 +96,17 @@
         <tr>
             <td colspan="4">A</td>
             <td rowspan="4">B</td>
-            
+
         </tr>
-        
+
         <tr>
             <td rowspan="4">C</td>
             <td>D</td>
             <td>E</td>
             <td>F</td>
-            
+
         </tr>
-        
+
         <tr>
             <td>G</td>
             <td>H</td>
@@ -132,18 +129,18 @@
 
     <table id="terceiro">
         <caption>Filmes Favoritos</caption>
-        
+
         <thead>
             <tr>
-                <td>Grupo</td>
-                <td>Nomes</td>
-                <td colspan="3">Filmes</td>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
             </tr>
         </thead>
 
         <tbody>
             <tr>
-                <td rowspan="3">Mulheres</td>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -162,7 +159,7 @@
                 <td>Bif Hero</td>
             </tr>
             <tr>
-                <td rowspan="3">Homens</td>
+                <th scope="rowgroup" rowspan="3">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -174,7 +171,7 @@
                 <td>Oldboy</td>
                 <td>Dangal</td>
             </tr>
-            
+
             <tr>
                 <td>Fabiano Mota</td>
                 <td>Star Wars 5</td>
@@ -182,7 +179,14 @@
                 <td>Toy Story</td>
             </tr>
         </tbody>
-        
+
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+
     </table>
 
 
