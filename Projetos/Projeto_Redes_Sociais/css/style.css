@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: url('../img/fundo-madeira\ \(1\).jpg') no-repeat top center;
+    background: url('../img/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 
@@ -31,8 +31,21 @@ main {
     transform: translate(-50%, -50%); 
 
     
-    background: url(../img/frame-iphone\ \(1\).png) no-repeat;    
+    background: url('../img/frame-iphone.png') no-repeat;    
     height: 627px;
     width: 311px;
 
+}
+
+#redesSociais{
+
+}
+
+#tela {
+    position: relative;
+    top: 80px;
+    left: 21px;
+
+    width: 270px;
+    height: 472px;
 }
