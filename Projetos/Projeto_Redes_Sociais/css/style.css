@@ -32,13 +32,13 @@ main {
 
     
     background: url('../img/frame-iphone.png') no-repeat;    
-    height: 627px;
-    width: 311px;
+    height: 626px;
+    width: 312px;
 
 }
 
 #redesSociais{
-
+    text-align: right;
 }
 
 #tela {
@@ -46,7 +46,7 @@ main {
     top: 80px;
     left: 21px;
 
-    width: 270px;
+    width: 268px;
     height: 472px;
 }
 
